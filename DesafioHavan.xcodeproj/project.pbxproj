@@ -15,6 +15,10 @@
 		03683CAB26EC7CC10042F55E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03683CA926EC7CC10042F55E /* LaunchScreen.storyboard */; };
 		03683CB626EC7CC10042F55E /* DesafioHavanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683CB526EC7CC10042F55E /* DesafioHavanTests.swift */; };
 		03683CC126EC7CC10042F55E /* DesafioHavanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683CC026EC7CC10042F55E /* DesafioHavanUITests.swift */; };
+		03683CD226EC9DC90042F55E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683CD126EC9DC90042F55E /* CustomCollectionViewCell.swift */; };
+		7C11EBA7CE348B2A4B26703B /* Pods_DesafioHavan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601413AC11F6A45885B2D1F0 /* Pods_DesafioHavan.framework */; };
+		96A09EF29814EC55A94A0DF3 /* Pods_DesafioHavan_DesafioHavanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1D8C42BEE47EA4A650BFEA /* Pods_DesafioHavan_DesafioHavanUITests.framework */; };
+		D117A13360228F54B52922D9 /* Pods_DesafioHavanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392D51C12D3A823192C696F1 /* Pods_DesafioHavanTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,16 @@
 		03683CBC26EC7CC10042F55E /* DesafioHavanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioHavanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03683CC026EC7CC10042F55E /* DesafioHavanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioHavanUITests.swift; sourceTree = "<group>"; };
 		03683CC226EC7CC10042F55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03683CD126EC9DC90042F55E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		392D51C12D3A823192C696F1 /* Pods_DesafioHavanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioHavanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1D8C42BEE47EA4A650BFEA /* Pods_DesafioHavan_DesafioHavanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioHavan_DesafioHavanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A495E63208408AA7CC24FC9 /* Pods-DesafioHavanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioHavanTests.debug.xcconfig"; path = "Target Support Files/Pods-DesafioHavanTests/Pods-DesafioHavanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		601413AC11F6A45885B2D1F0 /* Pods_DesafioHavan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioHavan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA77069439BED9A662D7F88B /* Pods-DesafioHavan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioHavan.release.xcconfig"; path = "Target Support Files/Pods-DesafioHavan/Pods-DesafioHavan.release.xcconfig"; sourceTree = "<group>"; };
+		AC14747E8BF0A7D14A3095CD /* Pods-DesafioHavan-DesafioHavanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioHavan-DesafioHavanUITests.release.xcconfig"; path = "Target Support Files/Pods-DesafioHavan-DesafioHavanUITests/Pods-DesafioHavan-DesafioHavanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5C59187BB46ACE92B506F63 /* Pods-DesafioHavan-DesafioHavanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioHavan-DesafioHavanUITests.debug.xcconfig"; path = "Target Support Files/Pods-DesafioHavan-DesafioHavanUITests/Pods-DesafioHavan-DesafioHavanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F44F4DB9975E83691B70489A /* Pods-DesafioHavanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioHavanTests.release.xcconfig"; path = "Target Support Files/Pods-DesafioHavanTests/Pods-DesafioHavanTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF640F152842A5A6735A0713 /* Pods-DesafioHavan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioHavan.debug.xcconfig"; path = "Target Support Files/Pods-DesafioHavan/Pods-DesafioHavan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C11EBA7CE348B2A4B26703B /* Pods_DesafioHavan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D117A13360228F54B52922D9 /* Pods_DesafioHavanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A09EF29814EC55A94A0DF3 /* Pods_DesafioHavan_DesafioHavanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				03683CB426EC7CC10042F55E /* DesafioHavanTests */,
 				03683CBF26EC7CC10042F55E /* DesafioHavanUITests */,
 				03683C9C26EC7CBF0042F55E /* Products */,
+				C3534AA7DBA72DCB0B687FF9 /* Pods */,
+				DCD21F2656EF551365C6FF1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +125,7 @@
 				03683CA726EC7CC10042F55E /* Assets.xcassets */,
 				03683CA926EC7CC10042F55E /* LaunchScreen.storyboard */,
 				03683CAC26EC7CC10042F55E /* Info.plist */,
+				03683CD126EC9DC90042F55E /* CustomCollectionViewCell.swift */,
 			);
 			path = DesafioHavan;
 			sourceTree = "<group>";
@@ -128,6 +148,30 @@
 			path = DesafioHavanUITests;
 			sourceTree = "<group>";
 		};
+		C3534AA7DBA72DCB0B687FF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF640F152842A5A6735A0713 /* Pods-DesafioHavan.debug.xcconfig */,
+				AA77069439BED9A662D7F88B /* Pods-DesafioHavan.release.xcconfig */,
+				E5C59187BB46ACE92B506F63 /* Pods-DesafioHavan-DesafioHavanUITests.debug.xcconfig */,
+				AC14747E8BF0A7D14A3095CD /* Pods-DesafioHavan-DesafioHavanUITests.release.xcconfig */,
+				5A495E63208408AA7CC24FC9 /* Pods-DesafioHavanTests.debug.xcconfig */,
+				F44F4DB9975E83691B70489A /* Pods-DesafioHavanTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCD21F2656EF551365C6FF1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				601413AC11F6A45885B2D1F0 /* Pods_DesafioHavan.framework */,
+				4E1D8C42BEE47EA4A650BFEA /* Pods_DesafioHavan_DesafioHavanUITests.framework */,
+				392D51C12D3A823192C696F1 /* Pods_DesafioHavanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03683CC526EC7CC10042F55E /* Build configuration list for PBXNativeTarget "DesafioHavan" */;
 			buildPhases = (
+				7573738080B191C81BD7A79A /* [CP] Check Pods Manifest.lock */,
 				03683C9726EC7CBF0042F55E /* Sources */,
 				03683C9826EC7CBF0042F55E /* Frameworks */,
 				03683C9926EC7CBF0042F55E /* Resources */,
+				FF3589B626DFC0735D94A966 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03683CC826EC7CC10042F55E /* Build configuration list for PBXNativeTarget "DesafioHavanTests" */;
 			buildPhases = (
+				BA1398FEA074950145D66044 /* [CP] Check Pods Manifest.lock */,
 				03683CAD26EC7CC10042F55E /* Sources */,
 				03683CAE26EC7CC10042F55E /* Frameworks */,
 				03683CAF26EC7CC10042F55E /* Resources */,
@@ -170,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03683CCB26EC7CC10042F55E /* Build configuration list for PBXNativeTarget "DesafioHavanUITests" */;
 			buildPhases = (
+				49DFB5D839C4B8FE45ECFBCF /* [CP] Check Pods Manifest.lock */,
 				03683CB826EC7CC10042F55E /* Sources */,
 				03683CB926EC7CC10042F55E /* Frameworks */,
 				03683CBA26EC7CC10042F55E /* Resources */,
+				03BCA5E04C050ED25AC00753 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03BCA5E04C050ED25AC00753 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioHavan-DesafioHavanUITests/Pods-DesafioHavan-DesafioHavanUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioHavan-DesafioHavanUITests/Pods-DesafioHavan-DesafioHavanUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioHavan-DesafioHavanUITests/Pods-DesafioHavan-DesafioHavanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49DFB5D839C4B8FE45ECFBCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioHavan-DesafioHavanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7573738080B191C81BD7A79A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioHavan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA1398FEA074950145D66044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioHavanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3589B626DFC0735D94A966 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioHavan/Pods-DesafioHavan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioHavan/Pods-DesafioHavan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioHavan/Pods-DesafioHavan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03683C9726EC7CBF0042F55E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +413,7 @@
 				03683CA326EC7CBF0042F55E /* ViewController.swift in Sources */,
 				03683C9F26EC7CBF0042F55E /* AppDelegate.swift in Sources */,
 				03683CA126EC7CBF0042F55E /* SceneDelegate.swift in Sources */,
+				03683CD226EC9DC90042F55E /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +586,7 @@
 		};
 		03683CC626EC7CC10042F55E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF640F152842A5A6735A0713 /* Pods-DesafioHavan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +605,7 @@
 		};
 		03683CC726EC7CC10042F55E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA77069439BED9A662D7F88B /* Pods-DesafioHavan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +624,7 @@
 		};
 		03683CC926EC7CC10042F55E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A495E63208408AA7CC24FC9 /* Pods-DesafioHavanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +646,7 @@
 		};
 		03683CCA26EC7CC10042F55E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44F4DB9975E83691B70489A /* Pods-DesafioHavanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +668,7 @@
 		};
 		03683CCC26EC7CC10042F55E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C59187BB46ACE92B506F63 /* Pods-DesafioHavan-DesafioHavanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +688,7 @@
 		};
 		03683CCD26EC7CC10042F55E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC14747E8BF0A7D14A3095CD /* Pods-DesafioHavan-DesafioHavanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
