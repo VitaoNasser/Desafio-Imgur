@@ -9,9 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let searchController = UISearchController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "Search imgur image"
+        navigationItem.searchController = searchController
     }
 
 
