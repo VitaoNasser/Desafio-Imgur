@@ -9,36 +9,41 @@ import UIKit
 import Alamofire
 
 
-class ViewController: UIViewController /* , UICollectionViewDataSource */ {
-    
-//    @IBOutlet var collectionView: UICollectionView!
-
+class ViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
     let searchController = UISearchController()
     
+    let filterImageNames = [
+    "comic", "sepia", "halftone", "crystallize", "noir", "vignette"
+    ]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Search imgur image"
         navigationItem.searchController = searchController
-        
-//        collectionView.dataSource = self
-                
+    }
+}
+
+extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 4
     }
     
-//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-//        return xxx.count
-//    }
-//
-//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "customCell", for: indexPath) as! CustomCollectionViewCell
-//
-//
-//        return cell
-//    }
-
-
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 4
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let customCell = collectionView.dequeueReusableCell(withReuseIdentifier: "customCell", for: indexPath) as! CustomCollectionViewCell
+        
+        customCell.imageView.image = UIImage(named: filterImageNames[indexPath.row])
+        
+        return customCell
+    }
+    
 }
 
 

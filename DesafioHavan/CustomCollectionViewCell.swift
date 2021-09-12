@@ -11,3 +11,4 @@ class CustomCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imageView: UIImageView!
 }
+
