@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="N8J-Gq-Meg">
-                                <rect key="frame" x="32" y="104" width="350" height="758"/>
+                                <rect key="frame" x="32" y="156" width="350" height="690"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GhN-os-EOC">
                                     <size key="itemSize" width="100" height="100"/>
@@ -62,7 +62,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="N8J-Gq-Meg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="6fV-kc-bT0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N8J-Gq-Meg" secondAttribute="bottom" id="Bhi-Et-QPc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N8J-Gq-Meg" secondAttribute="bottom" constant="16" id="Vf7-8q-eG5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N8J-Gq-Meg" secondAttribute="trailing" constant="32" id="dTO-Cj-G2F"/>
                             <constraint firstItem="N8J-Gq-Meg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="ni2-34-mZM"/>
                         </constraints>
@@ -74,7 +74,41 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="886.95652173913049" y="65.625"/>
+            <point key="canvasLocation" x="1713" y="66"/>
+        </scene>
+        <!--Loggin View Controller-->
+        <scene sceneID="cb8-Us-dzd">
+            <objects>
+                <viewController id="MbX-hX-qfl" customClass="LogginViewController" customModule="DesafioHavan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="THb-Vc-Z9R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZ3-va-8On">
+                                <rect key="frame" x="10" y="150" width="394" height="702"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="authenticateToImgur:" destination="MbX-hX-qfl" eventType="touchUpInside" id="OY3-tf-2sf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0k1-Gx-XaO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MZ3-va-8On" firstAttribute="leading" secondItem="THb-Vc-Z9R" secondAttribute="leading" constant="10" id="0We-BL-hkk"/>
+                            <constraint firstItem="0k1-Gx-XaO" firstAttribute="trailing" secondItem="MZ3-va-8On" secondAttribute="trailing" constant="10" id="XZ4-17-0o1"/>
+                            <constraint firstItem="0k1-Gx-XaO" firstAttribute="bottom" secondItem="MZ3-va-8On" secondAttribute="bottom" constant="10" id="nho-E6-O0d"/>
+                            <constraint firstItem="MZ3-va-8On" firstAttribute="top" secondItem="0k1-Gx-XaO" secondAttribute="top" constant="10" id="w7A-fn-Jeb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NEc-7N-Cmf"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="nextPage" id="ZaX-Qh-Jv9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yrz-If-U3l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834.78260869565224" y="65.625"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CeE-vD-uAf">
@@ -87,7 +121,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bo8-pA-qxc"/>
+                        <segue destination="MbX-hX-qfl" kind="relationship" relationship="rootViewController" id="xOw-hb-Nnv"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sxm-5L-8SX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

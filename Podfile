@@ -4,6 +4,7 @@
 target 'DesafioHavan' do
 
 pod 'Alamofire', '~> 5.4'
+pod 'OAuthSwift', '~> 2.0.0'
 
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!

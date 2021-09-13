@@ -7,6 +7,8 @@
 
 import UIKit
 import Alamofire
+import WebKit
+import OAuthSwift
 
 
 class ViewController: UIViewController {
@@ -19,11 +21,12 @@ class ViewController: UIViewController {
     "comic", "sepia", "halftone", "crystallize", "noir", "vignette"
     ]
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Search imgur image"
+        navigationItem.setHidesBackButton(true, animated: false)
         navigationItem.searchController = searchController
+        
     }
 }
 
