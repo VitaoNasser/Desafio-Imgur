@@ -10,6 +10,7 @@ import OAuthSwift
 
 class LogginViewController: UIViewController {
     
+    let preferences = UserDefaults.standard
     let oauthswift = OAuth2Swift(consumerKey: ImgurOAuth.consumerKey.rawValue,
                                  consumerSecret: ImgurOAuth.consumerSecret.rawValue,
                                  authorizeUrl: ImgurOAuth.authorizeUrl.rawValue,
@@ -20,8 +21,9 @@ class LogginViewController: UIViewController {
 
         let _ = oauthswift.authorize(withCallbackURL: nil, scope: "", state: "IMGUR") { result in
                 switch result {
-                case .success(let (credential, response, parameters)):
+                case .success(let (credential, _, _)):
                     print(credential.oauthToken) //Do your request
+                    self.preferences.set(credential.oauthToken, forKey: "token")
                     self.performSegue(withIdentifier: "nextPage", sender: nil)
                 case .failure(let error):
                     print(error.localizedDescription)

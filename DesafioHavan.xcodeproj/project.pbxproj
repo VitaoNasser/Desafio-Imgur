@@ -17,6 +17,8 @@
 		03683CC126EC7CC10042F55E /* DesafioHavanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683CC026EC7CC10042F55E /* DesafioHavanUITests.swift */; };
 		03683CD226EC9DC90042F55E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683CD126EC9DC90042F55E /* CustomCollectionViewCell.swift */; };
 		03683D3626EEE9170042F55E /* LogginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683D3526EEE9170042F55E /* LogginViewController.swift */; };
+		03683D3B26EEF5200042F55E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683D3A26EEF5200042F55E /* APIClient.swift */; };
+		03683D4026EEFE430042F55E /* ImgurResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683D3F26EEFE430042F55E /* ImgurResponseModel.swift */; };
 		7C11EBA7CE348B2A4B26703B /* Pods_DesafioHavan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601413AC11F6A45885B2D1F0 /* Pods_DesafioHavan.framework */; };
 		96A09EF29814EC55A94A0DF3 /* Pods_DesafioHavan_DesafioHavanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1D8C42BEE47EA4A650BFEA /* Pods_DesafioHavan_DesafioHavanUITests.framework */; };
 		D117A13360228F54B52922D9 /* Pods_DesafioHavanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392D51C12D3A823192C696F1 /* Pods_DesafioHavanTests.framework */; };
@@ -56,6 +58,8 @@
 		03683CC226EC7CC10042F55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03683CD126EC9DC90042F55E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		03683D3526EEE9170042F55E /* LogginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginViewController.swift; sourceTree = "<group>"; };
+		03683D3A26EEF5200042F55E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		03683D3F26EEFE430042F55E /* ImgurResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurResponseModel.swift; sourceTree = "<group>"; };
 		392D51C12D3A823192C696F1 /* Pods_DesafioHavanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioHavanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1D8C42BEE47EA4A650BFEA /* Pods_DesafioHavan_DesafioHavanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioHavan_DesafioHavanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A495E63208408AA7CC24FC9 /* Pods-DesafioHavanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioHavanTests.debug.xcconfig"; path = "Target Support Files/Pods-DesafioHavanTests/Pods-DesafioHavanTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				03683CA926EC7CC10042F55E /* LaunchScreen.storyboard */,
 				03683CAC26EC7CC10042F55E /* Info.plist */,
 				03683CD126EC9DC90042F55E /* CustomCollectionViewCell.swift */,
+				03683D3A26EEF5200042F55E /* APIClient.swift */,
+				03683D3F26EEFE430042F55E /* ImgurResponseModel.swift */,
 			);
 			path = DesafioHavan;
 			sourceTree = "<group>";
@@ -417,6 +423,8 @@
 				03683C9F26EC7CBF0042F55E /* AppDelegate.swift in Sources */,
 				03683CA126EC7CBF0042F55E /* SceneDelegate.swift in Sources */,
 				03683CD226EC9DC90042F55E /* CustomCollectionViewCell.swift in Sources */,
+				03683D3B26EEF5200042F55E /* APIClient.swift in Sources */,
+				03683D4026EEFE430042F55E /* ImgurResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
